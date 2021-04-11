@@ -24,3 +24,188 @@ h1 {
     font-style: italic;
     color: #999;
 }
+
+#pokeball {
+    width: 50px;
+    
+}
+
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 2s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+  
+}
+
+#new {
+    position: absolute;
+    top: 245px;
+    left: 110px;
+    border: solid black 1px;
+    height: 225px;
+    width: 330px;
+    border-radius: 10px;
+
+}
+
+#closeMe {
+    position: absolute;
+    left: 415px;
+    top: 75px;
+}
+
+.blinkers{
+    position: absolute;
+    display:flex;
+    justify-content: space-evenly;
+    top: 15px;
+    left: 165px;
+    padding-left: 50px;
+    border: solid black 1px;
+}
+
+
+
+#poke {
+    height: 800px;
+    
+}
+
+#container {
+    margin: auto;
+}
+
+#poke-container {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+
+#header-container {
+    border-radius: 0px !important;
+}
+
+#header-text{
+    margin: 0 auto;
+}
+
+#generate-pokemon {
+    margin: 0 auto;
+}
+
+#delete-btn {
+    position: absolute;
+    left: 85%;
+    display: none;
+    margin-bottom: 5%;
+}
+
+#daList {
+    display: flex;
+    flex-direction: row;
+}
+
+#one {
+    position: absolute;
+    top: 14px;
+    left: 165px;
+}
+
+#two {
+    position: absolute;
+    top: 14px;
+    left: 213px;
+}
+
+#three {
+    position: absolute;
+    top: 14px;
+    left: 258px;
+}
+
+#up {
+    position: inherit;
+    left: 410px;
+    top: 575px;
+    height: 50px;
+}
+
+#down {
+    position: inherit;
+    left: 410px;
+    top: 655px;
+    height: 50px;
+}
+
+#left {
+    position: inherit;
+    left: 360px;
+    top: 629px;
+    width: 50px;
+    height: 25px;
+}
+
+#right {
+    position: inherit;
+    left: 440px;
+    top: 629px;
+    width: 50px;
+    height: 25px;
+}
+
+#D_up_down {
+    position: absolute;
+    height: 50px;
+    top:580px;
+    left: 410px;
+}
+
+#D_left_right {
+    position:absolute;
+    width: 60px;
+    top:0px;
+    
+}
+
+.container {
+    position: absolute;
+    width: 60px;
+    top: 300px;
+    left: 670px;
+}
+
+.pokeName {
+    
+}

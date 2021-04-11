@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="main-container">
+
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            JuSt ShOw mE ThE PoKeMoNs
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+              <div id="DaList">
+                  <video loop autoplay width="250px">
+                  <source src="angryPika.mp4" type="video/mp4" >
+                  </video>
+                  <a href="pokeList.html"><p> <strong>HURRY CLICK HERE</strong> </p></a>
+                </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Lemme see that dex bby
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <img src="https://thumbs.gfycat.com/DistinctBrightBird.webp" alt="">
+            <a href="pokedex.html"><p>Step into professor oaks lab</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Here is a completed pokedex.
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            
+            <img src="tog.gif" width="250px" alt="">
+            <a href="stolen-index.html">I REALLY TRIED YOU GUYS </a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  
+  <div class="flip-card">
+    <div id="inner" class="flip-card-inner">
+      <div id="front" class="flip-card-front"> 
+                
+        
+        <img id="closed" src="PokedexClosed.png" alt="Avatar" style="width:500px;">
+      </div>
+      <div id="back" class="flip-card-back">
+        
+        <button id="closeMe" type="button" class="btn btn-primary">Close</button>
+        <img id="poke" src="pokedex.png" alt="">
+        <img id="new" src="" alt="mememememe">
+        <div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                One of three columns
+              </div>
+              <div class="col-sm">
+                One of three columns
+              </div>
+              <div class="col-sm">
+                One of three columns
+              </div>
+            </div>
+          </div>
+         
+            <div>
+              <div class="spinner-grow text-danger" id="one"></div>
+            </div>
+            <div>
+              <div class="spinner-grow text-warning" id="two"></div>
+            </div>
+            <div>
+              <div class="spinner-grow text-success" id="three"></div>
+            </div>
+            <button id="search" type="button" class="btn btn-success">Search</button>
+            
+            <input type="text" id="input"  placeholder="Search for pokemon..">
+            
+            <a href="pokeList.html"><button type="button" class="btn btn-primary">Primary</button></a>
+            <div id="D_up_down">
+            <div>
+            <button id="up" type="button" class="btn btn-outline-dark dpads1"></button>
+            </div>
+            <br>
+            <div>
+            <button id="down" type="button" class="btn btn-outline-dark dpads1"></button>
+          </div>
+        </div>
+          <div id="D_left_right">
+            <button id="left" type="button" class="btn btn-outline-dark dpads2"></button>
+
+            <button id="right" type="button" class="btn btn-outline-dark dpads2"></button>
+          </div>
+        
+        </div>
+            
+            
+            
+          
+        </div>
+        
+      </div>
+    </div>
+    
+    
+    
+  </div>
+    
+    <script src="poke.js"></script>
+  </body>
+  </html>

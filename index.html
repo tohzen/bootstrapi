@@ -12,14 +12,70 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              JuSt ShOw mE ThE PoKeMoNs
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <div id="DaList">
+                    <video loop autoplay width="250px">
+                    <source src="angryPika.mp4" type="video/mp4" >
+                    </video>
+                    <a href="pokeList.html"><p> <strong>HURRY CLICK HERE</strong> </p></a>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Lemme see that dex bby
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <img src="https://thumbs.gfycat.com/DistinctBrightBird.webp" alt="">
+              <a href="pokedex.html"><p>Step into professor oaks lab</p></a>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Here is a completed pokedex.
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              
+              <img src="tog.gif" width="250px" alt="">
+              <a href="stolen-index.html">I REALLY TRIED YOU GUYS </a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
     
     <div class="api-section">
         <h1>
             Part 1: Random Dog Generator
         </h1>
         <div class="api-content">
-            [INSERT RANDOM DOG GENERATOR HERE]
+            <div class="card" style="width: 18rem;">
+                <img src="" class="card-img-top" alt="..." id="poodlePics">
+                <div class="card-body">
+                  <h5 class="card-title" id="title"></h5>
+                  <p class="card-text">This is a random dog generator. Please click the good boi button below</p>
+                  <a href="#" class="btn btn-primary" id="myBootOn">Good boi button</a>
+                </div>
+              </div>
+            
         </div>
+        <p>If you wanna be the very best like no one ever was.... click here > <a href="pokedex.html"><img src="pokéball-pokémon.gif" alt="" id="pokeball"></p> </a>
     </div>
 
     <div class="api-section">
@@ -27,7 +83,20 @@
             Part 2: Weather App
         </h1>
         <div class="api-content">
-            [INSERT WEATHER APP HERE]
+            <form action="submit">
+                <input id="input" type="text" placeholder="Please search a city">
+                <button id="weatherButton" type="button" class="btn btn-info">Search</button>
+
+            </form>
+            <div>
+                <ul>
+                    <li id="temp">Temperature:</li>
+                    <li id="wind" >Wind:</li>
+                    <li id="desc" >Description:</li>
+                </ul>
+                
+
+            </div>
         </div>
     </div>
 
