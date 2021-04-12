@@ -12,6 +12,19 @@
   <title>Pokedex</title>
 </head>
 <body>
+
+  <div>
+    <div class="spinner-grow text-danger" id="one"></div>
+  </div>
+  <div>
+    <div class="spinner-grow text-warning" id="two"></div>
+  </div>
+  <div>
+    <div class="spinner-grow text-success" id="three"></div>
+  </div>
+  <div class="spinner-grow text-primary" id="four"></div>
+  </div>
+
   <div class="accordion" id="accordionExample">
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingOne">
@@ -72,7 +85,8 @@
       <div class="left-container__main-section-container">
         <div class="left-container__main-section">
           <div class="main-section__white">
-            <div class="main-section__black">
+            <div id="display" class="main-section__black">
+              <video class="video" src="" width="290px" height="300px"></video>
               <div class="main-screen hide">
                 <div class="screen__header">
                   <span class="poke-name"></span>
@@ -108,8 +122,8 @@
               <div class="d-pad__cell bottom"></div>
             </div>
             <div class="controllers__buttons">
-              <div class="buttons__button">B</div>
-              <div class="buttons__button">A</div>
+              <div id="b-button" class="buttons__button"> <button> B </button> </div>
+              <div id="a-button" class="buttons__button"> <button>  A </button> </div>
             </div>
           </div>
         </div>
@@ -153,13 +167,15 @@
 
  
       
-     <a id="link" href="https://www.youtube.com/watch?v=wXjSaZb67n8">Credit for this project</a>
+     <a id="link" class="linker" href="https://www.youtube.com/watch?v=wXjSaZb67n8">Credit for this project</a>
     
 
      <img id="myImage" class="poke-id" src="" height="100px" alt="">
      
     
     </div>
+
+    <a href="crazy.html"><button type="button" class="btn btn-danger">Danger</button></a>
   
   <script src="stolen-main.js"></script>
 </body>

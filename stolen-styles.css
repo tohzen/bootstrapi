@@ -436,4 +436,45 @@
     background: #F9AEFF;
   }
 
+.linker {
+  position: absolute;
+  top: 620px;
+}
 
+#one {
+  position: absolute;
+  top: 60px;
+  left: 772px;
+  width: 10px;
+  height: 10px;
+}
+
+#two {
+  position: absolute;
+  top: 60px;
+  left: 787px;
+  width: 10px;
+  height: 10px;
+}
+
+#three {
+  position: absolute;
+  top: 60px;
+  left: 801px;
+  width: 10px;
+  height: 10px;
+}
+
+#four {
+  position: absolute;
+  top: 60px;
+  left: 716px;
+  width: px;
+  height: px;
+}
+
+.video {
+  position: absolute;
+  top: 90px;
+  left: 765px;
+}

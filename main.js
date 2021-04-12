@@ -28,6 +28,7 @@ wetButton.addEventListener("click", function () {
     console.log('button clicked')
     fetch(URL)
     .then(function (rawResponse) {
+        console.log(rawResponse)
         return rawResponse.json();
     })
     .then(function (json) {

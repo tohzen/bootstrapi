@@ -129,6 +129,21 @@ const fetchPokeData = id => {
   });
 };
 
+const A = document.getElementById("a-button")
+const B = document.getElementById("b-button")
+const V = document.querySelector(".video")
+V.hidden = false;
+A.addEventListener("click", function () {
+  V.hidden = false;
+  V.src = "pokeball.mp4"
+  V.play()
+});
+
+B.addEventListener("click", function () {
+  
+  V.hidden = true;
+});
+
 
 
 const handleLeftButtonClick = () => {
